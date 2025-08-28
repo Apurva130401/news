@@ -97,6 +97,25 @@
         <!-- AUTO-NEWS-CARDS:END -->
 
 		
+            <!-- WhatsApp News Card -->
+            <a href="WhatsApp-news.html" class="news-item block bg-white rounded-xl shadow-lg p-6 transition-all duration-300 transform hover:scale-[1.01]" data-date="2025-08-28">
+                <div class="flex items-start gap-6">
+                    <div class="flex-shrink-0 w-40 h-40 overflow-hidden rounded-lg">
+                        <img src="https://media.assettype.com/deccanherald%2F2025-08-28%2Fu1zgkj8g%2FWhatsApp_gets_AI_powered_writing_tools.jpg?w=800" alt="An image showing the new AI-powered writing tool in WhatsApp with a pencil icon and different tone options." class="w-full h-full object-cover">
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="text-xl font-bold text-gray-900 leading-tight">WhatsApp Unleashes Meta AI: A Writing Tool to End Your Typing Terrors</h3>
+                        <p class="mt-2 text-sm text-gray-500">
+                            Meta's new "Writing Help" feature is bringing AI directly into your chats, allowing you to instantly rephrase, proofread, or change the tone of your messages with a single tap.
+                        </p>
+                        <div class="mt-4 flex items-center justify-between text-xs text-gray-500">
+                            <span>By The SyncFlo AI Team</span>
+                            <span class="news-date">August 28, 2025</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+		
             <!-- News Item 1 (Updated with GPT-5 Article) -->
             <a href="gpt5-update-article.html" class="news-item block bg-white rounded-xl shadow-lg p-6 transition-all duration-300 transform hover:scale-[1.01]">
                 <div class="flex items-start gap-6">
@@ -254,7 +273,7 @@
         </div>
     </footer>
 
-    <!-- JavaScript for Mobile Menu Toggle and Live Time Update -->
+    <!-- JavaScript for Mobile Menu Toggle and Sorting -->
     <script>
         // Toggle mobile menu visibility
         document.getElementById('mobile-menu-button').addEventListener('click', function() {
@@ -262,10 +281,25 @@
             mobileMenu.classList.toggle('hidden');
         });
 
-        // Search bar filtering logic
+        // Search bar filtering logic and initial sorting
         document.addEventListener('DOMContentLoaded', () => {
             const searchInput = document.getElementById('search-input');
-            const newsItems = document.querySelectorAll('.news-item');
+            const newsFeed = document.getElementById('news-feed');
+            let newsItems = Array.from(document.querySelectorAll('.news-item'));
+
+            // Function to sort news items by date in descending order
+            function sortNewsItems() {
+                newsItems.sort((a, b) => {
+                    const dateA = new Date(a.getAttribute('data-date'));
+                    const dateB = new Date(b.getAttribute('data-date'));
+                    return dateB - dateA; // Descending order (latest first)
+                });
+                // Append the sorted items back to the news feed
+                newsItems.forEach(item => newsFeed.appendChild(item));
+            }
+
+            // Initial sort on page load
+            sortNewsItems();
 
             searchInput.addEventListener('keyup', (event) => {
                 const searchTerm = event.target.value.toLowerCase();
