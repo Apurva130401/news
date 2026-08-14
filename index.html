@@ -30,6 +30,64 @@
         .card-image-placeholder {
             min-height: 200px;
         }
+        /* From Uiverse.io by JustCode14 */ 
+        .switch {
+          font-size: 17px;
+          position: relative;
+          display: inline-block;
+          width: 4em;
+          height: 2.2em;
+          border-radius: 30px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .switch input {
+          opacity: 0;
+          width: 0;
+          height: 0;
+        }
+        .slider {
+          position: absolute;
+          cursor: pointer;
+          top: 0; left: 0; right: 0; bottom: 0;
+          background-color: #2a2a2a;
+          transition: 0.4s;
+          border-radius: 30px;
+          overflow: hidden;
+        }
+        .slider:before {
+          position: absolute;
+          content: "";
+          height: 1.2em; width: 1.2em;
+          border-radius: 20px;
+          left: 0.5em; bottom: 0.5em;
+          transition: 0.4s;
+          transition-timing-function: cubic-bezier(0.81, -0.04, 0.38, 1.5);
+          box-shadow: inset 8px -4px 0px 0px #fff;
+        }
+        .switch input:checked + .slider { background-color: #00a6ff; }
+        .switch input:checked + .slider:before {
+          transform: translateX(1.8em);
+          box-shadow: inset 15px -4px 0px 15px #ffcf48;
+        }
+        .star {
+          background-color: #fff;
+          border-radius: 50%;
+          position: absolute;
+          width: 5px; height: 5px;
+          transition: all 0.4s;
+        }
+        .star_1 { left: 2.5em; top: 0.5em; }
+        .star_2 { left: 2.2em; top: 1.2em; }
+        .star_3 { left: 3em; top: 0.9em; }
+        .switch input:checked ~ .slider .star,
+        .switch input:checked + .slider .star { opacity: 0; }
+        .cloud {
+          width: 3.5em; position: absolute;
+          bottom: -1.4em; left: -1.1em;
+          opacity: 0; transition: all 0.4s;
+        }
+        .switch input:checked ~ .slider .cloud,
+        .switch input:checked + .slider .cloud { opacity: 1; }
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
@@ -52,6 +110,17 @@
 
             <!-- Action Buttons -->
             <div class="flex items-center space-x-4">
+                <label class="switch cursor-pointer" title="Toggle Theme" style="transform: scale(0.85);">
+                    <input type="checkbox" id="theme-switch" aria-label="Toggle theme switch">
+                    <span class="slider">
+                        <span class="star star_1"></span>
+                        <span class="star star_2"></span>
+                        <span class="star star_3"></span>
+                        <svg class="cloud" viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg">
+                            <path transform="matrix(.77976 0 0 .78395 -299.99 -418.63)" fill="#fff" d="m393.81 544.13c-.808 0-1.547.336-2.083.876-.536-.54-1.275-.876-2.083-.876-1.534 0-2.778 1.244-2.778 2.778 0 .092.005.184.015.275-.769.418-1.294 1.222-1.294 2.15 0 1.34 1.086 2.426 2.426 2.426h11.236c1.34 0 2.426-1.086 2.426-2.426 0-.928-.525-1.732-1.294-2.15.01-.091.015-.183.015-.275 0-1.534-1.244-2.778-2.778-2.778z" />
+                        </svg>
+                    </span>
+                </label>
                 <a href="#" class="hidden md:inline-block text-gray-600 hover:text-gray-900 font-medium transition-colors duration-200">Sign in</a>
                 <a href="#" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105">Get started</a>
             </div>
@@ -96,6 +165,66 @@
 		<!-- AUTO-NEWS-CARDS:START -->
         <!-- Do not edit: n8n will insert the newest cards right below this line -->
         <!-- AUTO-NEWS-CARDS:END -->
+
+            <!-- Breaking News Article: Anthropic Claude 3.7 Sonnet -->
+            <a href="2026-08-14-anthropic-claude-3-7-sonnet-hybrid-reasoning.html" class="news-item block bg-white rounded-xl shadow-lg p-6 transition-all duration-300 transform hover:scale-[1.01]" data-date="2026-08-14">
+                <div class="flex items-start gap-6">
+                    <div class="flex-shrink-0 w-40 h-40 overflow-hidden rounded-lg">
+                        <img src="claude_37_hybrid_reasoning.jpg" alt="Anthropic Claude 3.7 Sonnet Hybrid Reasoning Architecture" class="w-full h-full object-cover">
+                    </div>
+                    <div class="flex-1">
+                        <span class="inline-block bg-amber-100 text-amber-800 text-xs font-bold uppercase px-2.5 py-0.5 rounded-full mb-2">BREAKING NEWS</span>
+                        <h3 class="text-xl font-bold text-gray-900 leading-tight">Anthropic Unveils Claude 3.7 Sonnet: The First Hybrid Reasoning Model with Dynamic Thinking Budgets</h3>
+                        <p class="mt-2 text-sm text-gray-500">
+                            Anthropic launches Claude 3.7 Sonnet, introducing unified hybrid reasoning that seamlessly balances instant generation and extended deliberate thinking.
+                        </p>
+                        <div class="mt-4 flex items-center justify-between text-xs text-gray-500">
+                            <span>By The SyncFlo AI Team</span>
+                            <span class="news-date">August 14, 2026</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Breaking News Article: OpenAI Deep Research -->
+            <a href="2026-08-14-openai-deep-research-autonomous-agent.html" class="news-item block bg-white rounded-xl shadow-lg p-6 transition-all duration-300 transform hover:scale-[1.01]" data-date="2026-08-14">
+                <div class="flex items-start gap-6">
+                    <div class="flex-shrink-0 w-40 h-40 overflow-hidden rounded-lg">
+                        <img src="openai_deep_research_agent.jpg" alt="OpenAI Deep Research Autonomous Knowledge Agent" class="w-full h-full object-cover">
+                    </div>
+                    <div class="flex-1">
+                        <span class="inline-block bg-orange-100 text-orange-800 text-xs font-bold uppercase px-2.5 py-0.5 rounded-full mb-2">AUTONOMOUS AGENTS</span>
+                        <h3 class="text-xl font-bold text-gray-900 leading-tight">OpenAI Launches Deep Research: Autonomous Multi-Step Reasoning Agent for Enterprise Knowledge Work</h3>
+                        <p class="mt-2 text-sm text-gray-500">
+                            OpenAI introduces Deep Research, an autonomous agent leveraging o3 reasoning to crawl hundreds of sources and produce publication-grade cited reports.
+                        </p>
+                        <div class="mt-4 flex items-center justify-between text-xs text-gray-500">
+                            <span>By The SyncFlo AI Team</span>
+                            <span class="news-date">August 14, 2026</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Breaking News Article: NVIDIA Cosmos -->
+            <a href="2026-08-14-nvidia-cosmos-physical-ai-world-models.html" class="news-item block bg-white rounded-xl shadow-lg p-6 transition-all duration-300 transform hover:scale-[1.01]" data-date="2026-08-14">
+                <div class="flex items-start gap-6">
+                    <div class="flex-shrink-0 w-40 h-40 overflow-hidden rounded-lg">
+                        <img src="nvidia_cosmos_physical_ai.jpg" alt="NVIDIA Cosmos Physical AI World Foundation Models" class="w-full h-full object-cover">
+                    </div>
+                    <div class="flex-1">
+                        <span class="inline-block bg-emerald-100 text-emerald-800 text-xs font-bold uppercase px-2.5 py-0.5 rounded-full mb-2">PHYSICAL AI</span>
+                        <h3 class="text-xl font-bold text-gray-900 leading-tight">NVIDIA Introduces Cosmos: Open Omnimodal World Foundation Models Powering the Physical AI Revolution</h3>
+                        <p class="mt-2 text-sm text-gray-500">
+                            NVIDIA unveils Cosmos, an open family of omnimodal world foundation models designed to train autonomous robots in Omniverse sim-to-real workflows.
+                        </p>
+                        <div class="mt-4 flex items-center justify-between text-xs text-gray-500">
+                            <span>By The SyncFlo AI Team</span>
+                            <span class="news-date">August 14, 2026</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
 
             <!-- Breaking News Article: Alibaba Qwen 3.8-Max -->
             <a href="2026-08-03-alibaba-unveils-qwen-3-8-max.html" class="news-item block bg-white rounded-xl shadow-lg p-6 transition-all duration-300 transform hover:scale-[1.01]" data-date="2026-08-03">
