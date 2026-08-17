@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://news.syncflo.xyz/2026-08-17-openai-o3-reasoning-breakthrough.html</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-08-17-deepseek-janus-pro-multimodal.html</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://news.syncflo.xyz/2026-08-16-xai-grok-3-colossus-reasoning-supercluster.html</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
