@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://news.syncflo.xyz/2026-08-20-figure-humanoid-robotics-helix-vla-openai-bmw.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-08-20-google-deepmind-alphaproof-gemini-deep-think-formal-reasoning.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-08-19-microsoft-magentic-one-autogen-multi-agent-system.html</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-08-18-anthropic-claude-code-autonomous-terminal-agent.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-08-18-google-deepmind-genie-2-interactive-world-models.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-08-18-mistral-ocr-4-enterprise-document-ai.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://news.syncflo.xyz/2026-08-17-openai-o3-reasoning-breakthrough.html</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>weekly</changefreq>
