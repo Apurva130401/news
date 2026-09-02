@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://news.syncflo.xyz/2026-09-01-meta-llama-stack-2-frontier-multimodal-moe-agents.html</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-08-30-google-deepmind-alphaproteo-de-novo-protein-binders.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-08-28-cerebras-systems-cs3-wafer-scale-engine-fast-inference.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
     <loc>https://news.syncflo.xyz/2026-08-26-boston-dynamics-google-deepmind-atlas-gemini-robotics.html</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
