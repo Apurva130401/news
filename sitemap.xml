@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://news.syncflo.xyz/2026-09-16-openai-misalignment-investigation-framework-agents-api.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-09-16-nvidia-vera-rubin-nvl72-hyperscale-2gw-ai-factories.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://news.syncflo.xyz/2026-09-13-openai-anthropic-deepmind-joint-ai-safety-standards-consortium.html</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
