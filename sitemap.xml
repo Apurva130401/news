@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://news.syncflo.xyz/2026-09-19-anthropic-claude-mythos-5-1-formal-verification-architect-swarms.html</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-09-19-figure-03-humanoid-robotics-bmw-helix-2-world-model.html</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://news.syncflo.xyz/2026-09-18-google-deepmind-gemini-3-8-live-extended-thinking-speech-reasoning.html</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
