@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://news.syncflo.xyz/2026-09-25-microsoft-copilot-autopilot-autonomous-agent-workspaces.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-09-24-anthropic-claude-opus-5-5-adaptive-thinking-enterprise.html</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-09-23-google-deepmind-alphagenome-atlas-whole-genome-mapping.html</loc>
+    <lastmod>2026-09-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://news.syncflo.xyz/2026-09-22-google-deepmind-gemini-robotics-2-whole-body-dexterity.html</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
