@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://news.syncflo.xyz/2026-09-30-openai-devday-2026-dots-autonomous-agents-gpt-6-1-sol.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-09-30-white-house-superintelligence-accord-federal-si-policy.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-09-30-hitachi-fanuc-physical-ai-autonomous-industrial-robotics.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-09-29-nvidia-open-agent-safety-platform-nemo-guardrails-enclaves.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-09-29-anthropic-amd-project-helios-250k-mi450-gpu-supercluster.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-09-29-google-deepmind-alphadiscovery-autonomous-materials-synthesis-lab.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://news.syncflo.xyz/2026-09-28-alibaba-unveils-zhenwu-v900-ai-superchip-qwen-agent-matrix.html</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
