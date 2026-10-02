@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://news.syncflo.xyz/2026-10-02-google-deepmind-gemini-4-argon-1m-output-codemender-cyber-defense.html</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-10-02-microsoft-majorana-2-ai-designed-topoconductor-quantum-chip.html</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-10-02-anthropic-claude-sonnet-5-5-frontier-agentic-execution.html</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://news.syncflo.xyz/2026-10-01-nvidia-rtx-spark-blackwell-local-ai-superchip-windows-pcs.html</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>weekly</changefreq>
