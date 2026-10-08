@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://news.syncflo.xyz/2026-10-06-uk-mhra-ai-airlock-phase-3-autonomous-clinical-diagnostic-agents.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-10-06-reflection-ai-nvidia-open-weights-frontier-reasoning-model.html</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-10-05-frontier-ai-whistleblowers-nyc-council-hearing-autonomous-agent-safety.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://news.syncflo.xyz/2026-10-04-openai-broadcom-jalapeno-custom-inference-silicon-gigawatt-superclusters.html</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
