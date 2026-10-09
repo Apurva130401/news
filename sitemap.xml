@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://news.syncflo.xyz/2026-10-08-google-deepmind-meta-biohub-1-8b-virtual-cell-initiative-predictive-biology.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-10-08-white-house-genesis-mission-anthropic-150m-claude-scientific-discovery.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-10-07-anthropic-claude-haiku-5-5-ultra-fast-autonomous-agent-swarms.html</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://news.syncflo.xyz/2026-10-06-uk-mhra-ai-airlock-phase-3-autonomous-clinical-diagnostic-agents.html</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
