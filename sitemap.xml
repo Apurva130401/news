@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://news.syncflo.xyz/2026-10-10-servicenow-ai-workflow-factory-autonomous-engineer.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-10-09-openai-gpt-6-intelligent-ui-dynamic-generative-interfaces.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-10-09-mistral-large-4-chonk-1-trillion-multimodal-frontier-model.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://news.syncflo.xyz/2026-10-08-google-deepmind-meta-biohub-1-8b-virtual-cell-initiative-predictive-biology.html</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
