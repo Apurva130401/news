@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://news.syncflo.xyz/2026-10-23-openai-operator-studio-autonomous-agentic-workspaces.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-10-22-nvidia-figure-ai-helix-3-vla-isaac-perceptor-humanoid-robotics.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-10-21-deepseek-r2-open-reasoning-dual-phase-rl-test-time-search.html</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://news.syncflo.xyz/2026-10-20-anthropic-waters-ai-link-model-hardware-standard-autonomous-science.html</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>weekly</changefreq>
