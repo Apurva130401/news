@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://news.syncflo.xyz/2026-10-28-anthropic-claude-3-5-sonnet-computer-use-autonomous-agent.html</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-10-28-liquid-ai-liquid-foundation-models-lfm-non-transformer.html</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://news.syncflo.xyz/2026-10-27-meta-fair-spirit-lm-interleaved-speech-text-foundation-model.html</loc>
     <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
