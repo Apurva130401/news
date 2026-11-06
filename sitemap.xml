@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://news.syncflo.xyz/2026-11-06-google-gemini-4-argon-antigravity-autonomous-agents.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-11-06-meta-llama-4-scout-maverick-open-weights-moe.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://news.syncflo.xyz/2026-11-05-microsoft-mai-dxo-multi-agent-diagnostic-orchestrator-science.html</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>weekly</changefreq>

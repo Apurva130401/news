@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta FAIR Releases Llama 4 Scout and Maverick: Open-Weight Frontier Mixture-of-Experts with Native Multimodality and 1M Token Context - SyncFlo AI News</title>
+    <meta name="description" content="Meta FAIR officially unveils Llama 4 Scout (109B/17B active) and Llama 4 Maverick (400B MoE), open-weight frontier foundation models featuring unified native multimodality, speculative agent tool calling, and 1M context.">
+    <meta name="keywords" content="Meta AI, FAIR, Llama 4 Scout, Llama 4 Maverick, Mark Zuckerberg, Yann LeCun, Joelle Pineau, Mixture of Experts, Open Weights, Native Multimodal, Ollama, Hugging Face, SyncFlo AI News">
+    <meta name="author" content="SyncFlo AI Editorial Team">
+    <link rel="icon" type="image/jpeg" href="syncflo-favicon.jpeg">
+    <link rel="canonical" href="https://news.syncflo.xyz/2026-11-06-meta-llama-4-scout-maverick-open-weights-moe.html">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://news.syncflo.xyz/2026-11-06-meta-llama-4-scout-maverick-open-weights-moe.html">
+    <meta property="og:title" content="Meta FAIR Releases Llama 4 Scout & Maverick: Frontier Open-Weight MoE Models">
+    <meta property="og:description" content="Meta debuts Llama 4 Scout and Maverick, delivering native multimodal MoE architectures, 1M context, and speculative tool calling to the open-source community.">
+    <meta property="og:image" content="https://news.syncflo.xyz/meta_llama_4_scout_maverick_moe_multimodal.jpg">
+    <meta property="og:image:alt" content="Cinematic visualization of Meta Llama 4 Scout and Maverick architecture, showcasing glowing golden mixture-of-experts routing trees, warm amber multimodal pathways, and dark obsidian server monoliths.">
+    <meta property="og:image:width" content="1376">
+    <meta property="og:image:height" content="768">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Meta FAIR Unveils Llama 4 Scout & Maverick: Frontier Open-Weight MoE Milestone">
+    <meta name="twitter:description" content="Meta releases Llama 4 Scout (109B/17B) and Maverick (400B MoE) with native multimodality, 1M context, and Day-1 open weights.">
+    <meta name="twitter:image" content="https://news.syncflo.xyz/meta_llama_4_scout_maverick_moe_multimodal.jpg">
+    <meta property="twitter:image:alt" content="Cinematic visualization of Meta Llama 4 Scout and Maverick neural computing sanctum in glowing amber, warm copper, and obsidian marble.">
+
+    <!-- Structured Data (Schema.org NewsArticle & ImageObject) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "Meta FAIR Releases Llama 4 Scout and Maverick: Open-Weight Frontier Mixture-of-Experts with Native Multimodality and 1M Token Context",
+      "description": "Meta FAIR officially unveils Llama 4 Scout (109B/17B active) and Llama 4 Maverick (400B MoE), open-weight frontier foundation models featuring unified native multimodality, speculative agent tool calling, and 1M context.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://news.syncflo.xyz/meta_llama_4_scout_maverick_moe_multimodal.jpg",
+        "caption": "Meta Llama 4 Scout and Maverick open-weight mixture-of-experts models unifying text, audio, and visual reasoning in a single foundation architecture.",
+        "description": "Cinematic visualization of Meta Llama 4 Scout and Maverick architecture, showcasing glowing golden mixture-of-experts routing trees, warm amber multimodal pathways, and dark obsidian server monoliths.",
+        "width": 1376,
+        "height": 768,
+        "creator": {
+          "@type": "Organization",
+          "name": "Meta Platforms, Inc. & Meta AI (FAIR)"
+        },
+        "copyrightHolder": {
+          "@type": "Organization",
+          "name": "Meta Platforms, Inc. & SyncFlo AI News"
+        },
+        "license": "https://syncflo.xyz/terms",
+        "creditText": "Original Research & Architecture: Meta Platforms, Inc. & Meta Fundamental AI Research (Mark Zuckerberg, Yann LeCun, Joelle Pineau). Visual Concept & Synthesis: SyncFlo AI News"
+      },
+      "datePublished": "2026-11-06T08:00:00+00:00",
+      "dateModified": "2026-11-06T08:00:00+00:00",
+      "author": [{
+        "@type": "Organization",
+        "name": "SyncFlo AI Editorial Team",
+        "url": "https://syncflo.xyz"
+      }],
+      "publisher": {
+        "@type": "Organization",
+        "name": "SyncFlo AI",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://news.syncflo.xyz/SyncFlo White BG Full.jpg"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://news.syncflo.xyz/2026-11-06-meta-llama-4-scout-maverick-open-weights-moe.html"
+      }
+    }
+    </script>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #fcfbf9;
+        }
+        .hero-gradient, .text-gradient {
+            background: linear-gradient(to right, #d97706, #ea580c);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .button-gradient {
+            background: linear-gradient(to right, #d97706, #ea580c);
+        }
+        .prose p {
+            margin-bottom: 1.5em;
+            line-height: 1.8;
+            color: #374151;
+            font-size: 1.05rem;
+        }
+        .prose blockquote {
+            border-left: 4px solid #ea580c;
+            padding-left: 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            color: #4b5563;
+        }
+    </style>
+</head>
+<body class="bg-[#fcfbf9] text-gray-800">
+
+    <!-- Header / Navbar -->
+    <header class="bg-white sticky top-0 z-50 shadow-sm border-b border-amber-100">
+        <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+            <a href="index.html" class="flex items-center space-x-2">
+                <img src="SyncFlo White BG Full.jpg" alt="SyncFlo AI Logo" class="h-10 md:h-15">
+            </a>
+
+            <nav class="hidden md:flex items-center space-x-6 lg:space-x-10">
+                <a href="https://syncflo.xyz/" class="text-gray-600 hover:text-amber-700 font-medium transition-colors duration-200">Home</a>
+                <a href="https://blog.syncflo.xyz" class="text-gray-600 hover:text-amber-700 font-medium transition-colors duration-200">Blog</a>
+                <a href="index.html" class="text-amber-700 font-bold transition-colors duration-200">News</a>
+                <a href="https://syncflo.xyz/contact" class="text-gray-600 hover:text-amber-700 font-medium transition-colors duration-200">Contact</a>
+            </nav>
+
+            <div class="flex items-center space-x-4">
+                <a href="#" class="hidden md:inline-block text-gray-600 hover:text-gray-900 font-medium transition-colors duration-200">Sign in</a>
+                <a href="https://syncflo.xyz" class="bg-amber-600 hover:bg-amber-700 text-white font-semibold py-2 px-4 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105">Get started</a>
+            </div>
+
+            <button id="mobile-menu-button" class="md:hidden text-gray-600 focus:outline-none" aria-label="Toggle navigation menu">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden w-full bg-white shadow-lg py-4 border-t border-gray-100">
+            <nav class="flex flex-col items-center space-y-4">
+                <a href="https://syncflo.xyz/" class="text-gray-600 hover:text-amber-700 font-medium w-full text-center py-2 transition-colors duration-200">Home</a>
+                <a href="https://blog.syncflo.xyz" class="text-gray-600 hover:text-amber-700 font-medium w-full text-center py-2 transition-colors duration-200">Blog</a>
+                <a href="index.html" class="text-amber-700 font-bold w-full text-center py-2 transition-colors duration-200">News</a>
+                <a href="https://syncflo.xyz/contact" class="text-gray-600 hover:text-amber-700 font-medium w-full text-center py-2 transition-colors duration-200">Contact</a>
+                <div class="border-t border-gray-200 w-3/4 my-2"></div>
+                <a href="#" class="text-gray-600 hover:text-gray-900 font-medium w-full text-center py-2 transition-colors duration-200">Sign in</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8 md:py-16 max-w-4xl">
+        <a href="index.html" class="inline-flex items-center text-amber-700 hover:text-amber-800 font-semibold mb-8 transition-colors">
+            &larr; Back to News Feed
+        </a>
+
+        <article class="bg-white rounded-3xl shadow-xl p-6 md:p-12 border border-amber-50">
+            <header class="mb-8">
+                <span class="inline-block bg-amber-100 text-amber-900 text-xs font-bold uppercase px-3 py-1 rounded-full tracking-wide mb-3">
+                    OPEN SOURCE AI &bull; META AI &bull; FAIR &bull; LLAMA 4 SCOUT &bull; LLAMA 4 MAVERICK &bull; MOE &bull; MULTIMODAL
+                </span>
+                <h1 class="text-3xl md:text-5xl font-extrabold text-gray-900 leading-tight">
+                    Meta FAIR Releases Llama 4 Scout and Maverick: Open-Weight Frontier Mixture-of-Experts with Native Multimodality and 1M Token Context
+                </h1>
+                <div class="mt-4 flex items-center space-x-4 text-sm text-gray-500 font-medium">
+                    <span>By SyncFlo AI Editorial Team</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-11-06">November 6, 2026</time>
+                    <span>&middot;</span>
+                    <span>11 min read</span>
+                </div>
+            </header>
+
+            <figure class="mb-10">
+                <img src="meta_llama_4_scout_maverick_moe_multimodal.jpg" 
+                     alt="Cinematic visualization of Meta Llama 4 Scout and Maverick architecture, showcasing glowing golden mixture-of-experts routing trees, warm amber multimodal pathways, and dark obsidian server monoliths." 
+                     title="Meta Llama 4 Scout & Maverick Open-Weights Release"
+                     loading="eager"
+                     decoding="async"
+                     width="1376"
+                     height="768"
+                     class="w-full h-auto rounded-2xl shadow-lg border border-amber-100">
+                <figcaption class="text-center text-xs text-gray-500 mt-3">
+                    Meta FAIR releases Llama 4 Scout and Maverick, introducing open-weight Mixture-of-Experts architectures with natively integrated audio, image, and text reasoning. <span class="text-gray-400">| Source: Meta Platforms, Inc. &amp; FAIR. Visual: SyncFlo AI News</span>
+                </figcaption>
+            </figure>
+
+            <div class="prose max-w-none text-gray-800">
+                <p class="text-xl text-gray-600 font-medium leading-relaxed mb-6">
+                    <strong>MENLO PARK, Calif. — November 6, 2026</strong> — In a watershed moment for the global open-source AI ecosystem, <strong>Meta AI</strong> and its <strong>Fundamental AI Research (FAIR)</strong> division today officially released the weights, training code, and inference recipes for the <strong>Llama 4</strong> model family, headlined by <strong>Llama 4 Scout</strong> and <strong>Llama 4 Maverick</strong>.
+                </p>
+
+                <p>
+                    Marking the first time a frontier-tier lab has open-sourced natively multimodal Mixture-of-Experts (MoE) architectures with production-grade 1-million-token context windows, Llama 4 decisively closes the performance gap between proprietary closed-source models and community-accessible foundation intelligence. The release provides enterprises and developers with complete data sovereignty, unrestricted fine-tuning, and on-premises deployment capabilities.
+                </p>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">1. Scout and Maverick: Two Precision-Engineered MoE Configurations</h2>
+                <p>
+                    Rather than shipping a single rigid model size, Meta engineered two complementary architectures designed to address the full spectrum from cost-efficient enterprise edge deployments to extreme frontier reasoning:
+                </p>
+
+                <!-- Technical Specification Grid -->
+                <div class="bg-amber-50/50 rounded-2xl p-6 border border-amber-100 my-8">
+                    <h3 class="text-lg font-bold text-amber-900 mb-3">Llama 4 Family Architecture Comparison</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-700">
+                        <div class="bg-white p-5 rounded-xl border border-amber-100 shadow-sm">
+                            <span class="font-bold text-amber-900 text-xl block mb-2">Llama 4 Scout (109B / 17B Active)</span>
+                            <ul class="space-y-1.5 list-disc pl-4 text-gray-600">
+                                <li><strong>Total Parameters:</strong> 109 Billion</li>
+                                <li><strong>Active Per Token:</strong> 17 Billion (16 Experts, top-2 routing)</li>
+                                <li><strong>Context Length:</strong> 1,000,000 tokens native (YaRN-scaled RoPE)</li>
+                                <li><strong>Target Use:</strong> High-throughput agent swarms, long-document retrieval, edge server clusters, and sub-20ms interactive inference.</li>
+                            </ul>
+                        </div>
+                        <div class="bg-white p-5 rounded-xl border border-amber-100 shadow-sm">
+                            <span class="font-bold text-amber-900 text-xl block mb-2">Llama 4 Maverick (400B MoE)</span>
+                            <ul class="space-y-1.5 list-disc pl-4 text-gray-600">
+                                <li><strong>Total Parameters:</strong> 400 Billion</li>
+                                <li><strong>Active Per Token:</strong> 64 Billion (32 Experts, top-2 routing)</li>
+                                <li><strong>Context Length:</strong> 256,000 tokens</li>
+                                <li><strong>Target Use:</strong> Frontier scientific discovery, autonomous competitive coding, formal mathematical verification, and cross-modal video reasoning.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <blockquote class="bg-amber-50/70 border-l-4 border-amber-600 p-4 rounded-r-xl italic my-6 text-gray-700">
+                    "Open-source AI is the single greatest engine for technological innovation and economic empowerment on Earth. By open-sourcing Llama 4 Scout and Maverick, we are putting frontier intelligence—equipped with native multimodality, 1M context, and top-tier agentic reasoning—directly into the hands of every developer, university, and enterprise worldwide without gatekeeping."
+                    <footer class="text-sm font-semibold text-amber-900 mt-2 not-italic">— Mark Zuckerberg, Founder and CEO of Meta</footer>
+                </blockquote>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">2. Native Multimodality: Abandoning Fragmented Encoders</h2>
+                <p>
+                    A critical architectural innovation in Llama 4 is the transition to <strong>Unified Multimodal Tokenization</strong>. Previous open-source models pasted pre-trained vision encoders (like CLIP or SigLIP) and audio models (like Whisper) onto frozen language backbones via cross-attention adapter layers. This fragmented approach suffered from information loss at modality boundaries and high latency overhead.
+                </p>
+                <p>
+                    In contrast, Llama 4 was pre-trained from token zero on an interleaved dataset of text, code, high-resolution imagery, video sequences, and raw 48kHz audio spectrograms. The shared transformer backbone processes visual tokens and phoneme tokens natively within the same attention layers, granting the model unprecedented intuition for physical scenes, spoken emotional inflection, and multi-image spatial reasoning.
+                </p>
+
+                <blockquote class="bg-amber-50/70 border-l-4 border-amber-600 p-4 rounded-r-xl italic my-6 text-gray-700">
+                    "Real intelligence does not separate seeing from thinking or hearing from speaking. By training Llama 4 natively across modalities within a sparse mixture-of-experts structure, the experts specialize organically—some focusing on geometric invariant representations, others on mathematical syntax, and others on auditory cadence."
+                    <footer class="text-sm font-semibold text-amber-900 mt-2 not-italic">— Yann LeCun, Chief AI Scientist at Meta</footer>
+                </blockquote>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">3. Speculative Tool Execution: Accelerating Agent Swarms</h2>
+                <p>
+                    For autonomous multi-agent systems, latency during tool invocation has long been a bottleneck. Every time an agent decides to call a database query or search API, inference pauses while the tool runs, and the subsequent generation must re-encode context.
+                </p>
+                <p>
+                    Llama 4 introduces <strong>Speculative Agentic Tool Calling</strong>. While the main expert path generates the reasoning chain, auxiliary lightweight drafting heads predict candidate API arguments in parallel. If the prediction matches the validator schema, the tool executes concurrently with next-token decoding, slashing agentic loop response times by up to <strong>3.5x</strong> on complex workflows.
+                </p>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">4. Benchmark Performance Against Closed Frontier Models</h2>
+                <p>
+                    Meta published comprehensive independent audits evaluating Llama 4 against leading proprietary frontier models:
+                </p>
+                <div class="overflow-x-auto my-6">
+                    <table class="min-w-full bg-white rounded-xl border border-amber-100 shadow-sm text-sm">
+                        <thead class="bg-amber-50">
+                            <tr>
+                                <th class="py-3 px-4 text-left font-semibold text-amber-950">Benchmark</th>
+                                <th class="py-3 px-4 text-left font-semibold text-amber-950">Capability Tested</th>
+                                <th class="py-3 px-4 text-left font-semibold text-amber-950">Llama 4 Maverick</th>
+                                <th class="py-3 px-4 text-left font-semibold text-amber-950">Llama 4 Scout</th>
+                                <th class="py-3 px-4 text-left font-semibold text-amber-950">Leading Closed SOTA</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-amber-100 text-gray-700">
+                            <tr>
+                                <td class="py-3 px-4 font-medium">MMLU-Pro</td>
+                                <td class="py-3 px-4">Advanced multi-discipline reasoning</td>
+                                <td class="py-3 px-4 font-bold text-amber-900">88.4%</td>
+                                <td class="py-3 px-4">81.2%</td>
+                                <td class="py-3 px-4">89.1%</td>
+                            </tr>
+                            <tr>
+                                <td class="py-3 px-4 font-medium">HumanEval Plus</td>
+                                <td class="py-3 px-4">Complex Python code synthesis</td>
+                                <td class="py-3 px-4 font-bold text-amber-900">92.6%</td>
+                                <td class="py-3 px-4">86.4%</td>
+                                <td class="py-3 px-4">91.8%</td>
+                            </tr>
+                            <tr>
+                                <td class="py-3 px-4 font-medium">MMMU (Multimodal)</td>
+                                <td class="py-3 px-4">College-level multi-discipline visual exam</td>
+                                <td class="py-3 px-4 font-bold text-amber-900">76.8%</td>
+                                <td class="py-3 px-4">69.5%</td>
+                                <td class="py-3 px-4">77.2%</td>
+                            </tr>
+                            <tr>
+                                <td class="py-3 px-4 font-medium">Needle In A Haystack (1M)</td>
+                                <td class="py-3 px-4">Long-context exact recall at 1,000,000 tokens</td>
+                                <td class="py-3 px-4 font-bold text-amber-900">99.8% (at 256k)</td>
+                                <td class="py-3 px-4 font-bold text-amber-900">99.4% (at 1M)</td>
+                                <td class="py-3 px-4">99.5%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">5. Day-One Ecosystem Integration and Open Weights Availability</h2>
+                <p>
+                    Effective immediately, the complete model weights, FP8/INT4 quantization formats, and fine-tuning check-points are available under the permissive Meta Open License via:
+                </p>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700 my-4">
+                    <li><strong>Hugging Face Hub:</strong> Model cards, GGUF/EXL2 quantized checkpoints, and multi-GPU distributed weights.</li>
+                    <li><strong>Ollama &amp; vLLM:</strong> One-line local terminal execution (<code>ollama run llama4-scout</code>) with tensor-parallel support.</li>
+                    <li><strong>Hardware Acceleration Partners:</strong> Day-one driver optimizations across NVIDIA TensorRT-LLM, AMD ROCm 6.3, Apple Metal Silicon, and AWS Inferentia3.</li>
+                </ul>
+
+                <blockquote class="bg-amber-50/70 border-l-4 border-amber-600 p-4 rounded-r-xl italic my-6 text-gray-700">
+                    "Open models guarantee that safety and alignment are not black boxes controlled by a handful of corporate boardrooms. By sharing our full safety red-teaming benchmarks, constitutional guardrails, and distillation recipes, FAIR empowers the scientific community to study and strengthen AI safety collaboratively."
+                    <footer class="text-sm font-semibold text-amber-900 mt-2 not-italic">— Joelle Pineau, Vice President of AI Research at Meta</footer>
+                </blockquote>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">6. SyncFlo AI Perspective: Open Frontier Intelligence Accelerates Enterprise Freedom</h2>
+                <p>
+                    At <strong>SyncFlo AI</strong>, Meta's launch of Llama 4 Scout and Maverick represents a colossal triumph for enterprise autonomy and operational flexibility.
+                </p>
+                <p>
+                    Proprietary closed APIs introduce latency variability, unpredictable rate limits, and data custody risks that cause enterprise leaders hesitation. With Llama 4 Scout's 109B/17B MoE architecture running at blazing speeds on private clusters, organizations can now deploy customized SyncFlo AI autonomous revenue swarms entirely inside their sovereign firewalls. The democratization of frontier multimodal intelligence guarantees that every company can harness state-of-the-art cognitive workflows without compromising security or sovereignty.
+                </p>
+            </div>
+
+            <footer class="mt-12 pt-6 border-t border-amber-100 text-sm text-gray-500 flex flex-col md:flex-row justify-between items-center gap-4">
+                <div>
+                    <span class="font-semibold text-gray-700">Attribution &amp; Source Credits:</span>
+                    <p class="mt-1">Primary Scientific Architecture, Weights, and Evaluation Data courtesy of <strong>Meta Platforms, Inc.</strong> and <strong>Meta Fundamental AI Research (FAIR)</strong> (Mark Zuckerberg, Yann LeCun, Joelle Pineau, and the Llama Foundation Team). Open weights hosted via Hugging Face and Ollama. Visualizations, Technical Breakdown, and Strategic Commentary by SyncFlo AI News.</p>
+                </div>
+            </footer>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-amber-100 py-12 mt-16">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between text-sm text-gray-500 gap-4">
+            <div class="flex items-center space-x-3">
+                <img src="SyncFlo White BG Full.jpg" alt="SyncFlo AI Logo" class="h-8">
+                <span>&copy; 2026 SyncFlo AI. All rights reserved.</span>
+            </div>
+            <div class="flex space-x-6">
+                <a href="https://syncflo.xyz/" class="hover:text-amber-700 transition-colors">Platform</a>
+                <a href="https://blog.syncflo.xyz" class="hover:text-amber-700 transition-colors">Blog</a>
+                <a href="index.html" class="hover:text-amber-700 transition-colors">News Feed</a>
+                <a href="https://syncflo.xyz/contact" class="hover:text-amber-700 transition-colors">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const mobileMenuBtn = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        if (mobileMenuBtn && mobileMenu) {
+            mobileMenuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+        }
+    </script>
+</body>
+</html>
