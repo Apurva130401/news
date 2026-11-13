@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://news.syncflo.xyz/2026-11-12-nvidia-sc26-vera-rubin-nvl576-supercluster-apollo-2-physics-models.html</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://news.syncflo.xyz/2026-11-12-world-labs-marble-2-spatial-intelligence-interactive-3d-world-models.html</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://news.syncflo.xyz/2026-11-11-anthropic-claude-5-2-fable-mythos-frontier-reasoning-agent-swarms.html</loc>
     <lastmod>2026-11-11</lastmod>
     <changefreq>weekly</changefreq>
