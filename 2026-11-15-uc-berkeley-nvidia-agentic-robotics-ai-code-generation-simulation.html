@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UC Berkeley &amp; NVIDIA Unveil 'Agentic Robotics': Multi-Agent AI Swarms Autonomously Author, Simulate, and Refine Robot Control Code to Eclipse Human Demonstrations - SyncFlo AI News</title>
+    <meta name="description" content="Researchers at UC Berkeley AUTOLAB and NVIDIA Robotics debut Agentic Robotics, deploying teams of LLM coding agents that decompose manipulation goals, synthesize Python/ROS control policies, and verify them in NVIDIA Isaac Sim—achieving 99% task success in complex industrial contact-rich operations.">
+    <meta name="keywords" content="Agentic Robotics, UC Berkeley, NVIDIA, Ken Goldberg, Spencer Huang, Graph-as-Policy, GaP, ASPIRE, Isaac Sim, Isaac Lab, Robot Learning, CoRL, Code-as-Policy, Industrial Automation, SyncFlo AI News">
+    <meta name="author" content="SyncFlo AI Editorial Team">
+    <link rel="icon" type="image/jpeg" href="syncflo-favicon.jpeg">
+    <link rel="canonical" href="https://news.syncflo.xyz/2026-11-15-uc-berkeley-nvidia-agentic-robotics-ai-code-generation-simulation.html">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://news.syncflo.xyz/2026-11-15-uc-berkeley-nvidia-agentic-robotics-ai-code-generation-simulation.html">
+    <meta property="og:title" content="UC Berkeley &amp; NVIDIA Debut 'Agentic Robotics': AI Swarms Write and Test Robot Code in Simulation">
+    <meta property="og:description" content="Researchers at UC Berkeley and NVIDIA introduce Agentic Robotics, replacing data-hungry imitation learning with autonomous AI agent swarms that write, simulate, and debug robot manipulation policies in minutes.">
+    <meta property="og:image" content="https://news.syncflo.xyz/berkeley_nvidia_agentic_robotics_simulation.jpg">
+    <meta property="og:image:alt" content="Cinematic visualization of UC Berkeley AUTOLAB and NVIDIA Agentic Robotics framework showing multi-agent AI coding swarms autonomously writing, testing, and verifying robot control policies in Isaac Sim with warm golden code syntax graphs, amber robotic trajectory matrices, and dark obsidian surfaces.">
+    <meta property="og:image:width" content="1376">
+    <meta property="og:image:height" content="768">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="UC Berkeley &amp; NVIDIA Breakthrough: 'Agentic Robotics' Autonomous Policy Generation">
+    <meta name="twitter:description" content="Multi-agent AI swarms bypass the robotics data wall by autonomously writing, testing, and verifying robot control code in NVIDIA Isaac Sim.">
+    <meta name="twitter:image" content="https://news.syncflo.xyz/berkeley_nvidia_agentic_robotics_simulation.jpg">
+    <meta property="twitter:image:alt" content="Cinematic visualization of UC Berkeley and NVIDIA Agentic Robotics framework with glowing warm amber, molten copper, and dark obsidian tones.">
+
+    <!-- Structured Data (Schema.org NewsArticle & ImageObject) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "UC Berkeley & NVIDIA Unveil 'Agentic Robotics': Multi-Agent AI Swarms Autonomously Author, Simulate, and Refine Robot Control Code to Eclipse Human Demonstrations",
+      "description": "Researchers at UC Berkeley AUTOLAB and NVIDIA Robotics debut Agentic Robotics, deploying teams of LLM coding agents that decompose manipulation goals, synthesize Python/ROS control policies, and verify them in NVIDIA Isaac Sim—achieving 99% task success in complex industrial contact-rich operations.",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://news.syncflo.xyz/berkeley_nvidia_agentic_robotics_simulation.jpg",
+        "caption": "UC Berkeley AUTOLAB and NVIDIA Agentic Robotics framework generating verified physical control code inside NVIDIA Isaac Sim.",
+        "description": "Cinematic visualization of UC Berkeley AUTOLAB and NVIDIA Agentic Robotics framework showing multi-agent AI coding swarms autonomously writing, testing, and verifying robot control policies in Isaac Sim with warm golden code syntax graphs, amber robotic trajectory matrices, and dark obsidian surfaces.",
+        "width": 1376,
+        "height": 768,
+        "creator": {
+          "@type": "Organization",
+          "name": "UC Berkeley AUTOLAB & NVIDIA Robotics"
+        },
+        "copyrightHolder": {
+          "@type": "Organization",
+          "name": "UC Berkeley AUTOLAB, NVIDIA Robotics & SyncFlo AI News"
+        },
+        "license": "https://syncflo.xyz/terms",
+        "creditText": "Original Scientific Research, Algorithms & Benchmarks: UC Berkeley AUTOLAB (Prof. Ken Goldberg), NVIDIA Robotics (Spencer Huang), Siemens, and the Conference on Robot Learning (CoRL). Visual Concept, EXIF SEO Metadata & Technical Synthesis: SyncFlo AI News"
+      },
+      "datePublished": "2026-11-15T08:00:00+00:00",
+      "dateModified": "2026-11-15T08:00:00+00:00",
+      "author": [{
+        "@type": "Organization",
+        "name": "SyncFlo AI Editorial Team",
+        "url": "https://syncflo.xyz"
+      }],
+      "publisher": {
+        "@type": "Organization",
+        "name": "SyncFlo AI",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://news.syncflo.xyz/SyncFlo White BG Full.jpg"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://news.syncflo.xyz/2026-11-15-uc-berkeley-nvidia-agentic-robotics-ai-code-generation-simulation.html"
+      }
+    }
+    </script>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #fcfbf9;
+        }
+        .hero-gradient, .text-gradient {
+            background: linear-gradient(to right, #d97706, #ea580c);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .button-gradient {
+            background: linear-gradient(to right, #d97706, #ea580c);
+        }
+        .prose p {
+            margin-bottom: 1.5em;
+            line-height: 1.8;
+            color: #374151;
+            font-size: 1.05rem;
+        }
+        .prose blockquote {
+            border-left: 4px solid #ea580c;
+            padding-left: 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            color: #4b5563;
+        }
+    </style>
+</head>
+<body class="bg-[#fcfbf9] text-gray-800">
+
+    <!-- Header / Navbar -->
+    <header class="bg-white sticky top-0 z-50 shadow-sm border-b border-amber-100">
+        <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+            <a href="index.html" class="flex items-center space-x-2">
+                <img src="SyncFlo White BG Full.jpg" alt="SyncFlo AI Logo" class="h-10 md:h-15">
+            </a>
+
+            <nav class="hidden md:flex items-center space-x-6 lg:space-x-10">
+                <a href="https://syncflo.xyz/" class="text-gray-600 hover:text-amber-700 font-medium transition-colors duration-200">Home</a>
+                <a href="https://blog.syncflo.xyz" class="text-gray-600 hover:text-amber-700 font-medium transition-colors duration-200">Blog</a>
+                <a href="index.html" class="text-amber-700 font-bold transition-colors duration-200">News</a>
+                <a href="https://syncflo.xyz/contact" class="text-gray-600 hover:text-amber-700 font-medium transition-colors duration-200">Contact</a>
+            </nav>
+
+            <div class="flex items-center space-x-4">
+                <a href="#" class="hidden md:inline-block text-gray-600 hover:text-gray-900 font-medium transition-colors duration-200">Sign in</a>
+                <a href="https://syncflo.xyz" class="bg-amber-600 hover:bg-amber-700 text-white font-semibold py-2 px-4 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105">Get started</a>
+            </div>
+
+            <button id="mobile-menu-button" class="md:hidden text-gray-600 focus:outline-none" aria-label="Toggle navigation menu">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden w-full bg-white shadow-lg py-4 border-t border-gray-100">
+            <nav class="flex flex-col items-center space-y-4">
+                <a href="https://syncflo.xyz/" class="text-gray-600 hover:text-amber-700 font-medium w-full text-center py-2 transition-colors duration-200">Home</a>
+                <a href="https://blog.syncflo.xyz" class="text-gray-600 hover:text-amber-700 font-medium w-full text-center py-2 transition-colors duration-200">Blog</a>
+                <a href="index.html" class="text-amber-700 font-bold w-full text-center py-2 transition-colors duration-200">News</a>
+                <a href="https://syncflo.xyz/contact" class="text-gray-600 hover:text-amber-700 font-medium w-full text-center py-2 transition-colors duration-200">Contact</a>
+                <div class="border-t border-gray-200 w-3/4 my-2"></div>
+                <a href="#" class="text-gray-600 hover:text-gray-900 font-medium w-full text-center py-2 transition-colors duration-200">Sign in</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8 md:py-16 max-w-4xl">
+        <a href="index.html" class="inline-flex items-center text-amber-700 hover:text-amber-800 font-semibold mb-8 transition-colors">
+            &larr; Back to News Feed
+        </a>
+
+        <article class="bg-white rounded-3xl shadow-xl p-6 md:p-12 border border-amber-50">
+            <header class="mb-8">
+                <span class="inline-block bg-amber-100 text-amber-900 text-xs font-bold uppercase px-3 py-1 rounded-full tracking-wide mb-3">
+                    PHYSICAL AI &bull; AGENTIC ROBOTICS &bull; UC BERKELEY &bull; NVIDIA &bull; ISAAC SIM &bull; GRAPH-AS-POLICY &bull; ASPIRE &bull; CoRL 2026
+                </span>
+                <h1 class="text-3xl md:text-5xl font-extrabold text-gray-900 leading-tight">
+                    UC Berkeley &amp; NVIDIA Unveil 'Agentic Robotics': Multi-Agent AI Swarms Autonomously Author, Simulate, and Refine Robot Control Code to Eclipse Human Demonstrations
+                </h1>
+                <div class="mt-4 flex items-center space-x-4 text-sm text-gray-500 font-medium">
+                    <span>By SyncFlo AI Editorial Team</span>
+                    <span>&middot;</span>
+                    <time datetime="2026-11-15">November 15, 2026</time>
+                    <span>&middot;</span>
+                    <span>14 min read</span>
+                </div>
+            </header>
+
+            <figure class="mb-10">
+                <img src="berkeley_nvidia_agentic_robotics_simulation.jpg" 
+                     alt="Cinematic visualization of UC Berkeley AUTOLAB and NVIDIA Agentic Robotics framework showing multi-agent AI coding swarms autonomously writing, testing, and verifying robot control policies in Isaac Sim with warm golden code syntax graphs, amber robotic trajectory matrices, and dark obsidian surfaces." 
+                     title="UC Berkeley and NVIDIA Agentic Robotics Simulation Framework"
+                     loading="eager"
+                     decoding="async"
+                     width="1376"
+                     height="768"
+                     class="w-full h-auto rounded-2xl shadow-lg border border-amber-100">
+                <figcaption class="text-center text-xs text-gray-500 mt-3">
+                    UC Berkeley AUTOLAB and NVIDIA Robotics introduce the Agentic Robotics paradigm, using collaborative LLM coder swarms to write, debug, and test physical manipulation code in NVIDIA Isaac Sim. <span class="text-gray-400">| Source: UC Berkeley AUTOLAB &amp; NVIDIA Robotics. Visual: SyncFlo AI News</span>
+                </figcaption>
+            </figure>
+
+            <div class="prose max-w-none text-gray-800">
+                <p class="text-xl text-gray-600 font-medium leading-relaxed mb-6">
+                    <strong>BERKELEY &amp; SANTA CLARA, California — November 15, 2026</strong> — In what roboticists are calling the most decisive departure from brute-force data collection in over a decade, a joint initiative between the <strong>University of California, Berkeley AUTOLAB</strong> (led by Professor Ken Goldberg) and <strong>NVIDIA Robotics</strong> (directed by Spencer Huang) has unveiled <strong>Agentic Robotics</strong>—an autonomous software engineering paradigm where specialized multi-agent AI swarms write, test, critique, and self-correct physical robot control programs inside GPU-accelerated simulation environments before zero-shot hardware deployment.
+                </p>
+
+                <p>
+                    Presented at the premier Conference on Robot Learning (CoRL) alongside industrial evaluations conducted with <strong>Siemens</strong> and leading hardware manufacturing partners, the breakthrough addresses the fundamental bottleneck of physical AI: the crippling scarcity and astronomical cost of human teleoperation demonstrations. By substituting human demonstration data with autonomous coding agents generating type-checked, modular control policies, the system achieves a verified <strong>99% task success rate</strong> on complex, contact-rich assembly tasks while slashing factory reprogramming times from days to under ten minutes.
+                </p>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">1. Shattering the Robotics Data Wall: Beyond Imitation Learning</h2>
+                <p>
+                    For the past five years, the dominant paradigm in robotic manipulation has been imitation learning (Behavior Cloning and Diffusion Policies). While successful for simple tabletop demonstrations, scaling this methodology to varied industrial and enterprise environments revealed insurmountable limitations:
+                </p>
+
+                <ul class="list-disc pl-6 space-y-2 text-gray-700 my-4">
+                    <li><strong>The Teleoperation Data Bottleneck:</strong> Gathering 10,000 physical robot demonstrations requires months of human operator labor, specialized haptic rigs, and hundreds of thousands of dollars in hardware depreciation. Even slight changes in object geometry or lighting frequently derail the learned policies.</li>
+                    <li><strong>Brittle Black-Box End-to-End Neural Nets:</strong> Pure pixel-to-torque neural networks lack interpretability and safety guarantees. When a multi-jointed industrial arm fails during high-torque cable routing or syringe insertion, debugging the failure within billions of latent weights is nearly impossible.</li>
+                    <li><strong>The Reprogramming Drag:</strong> At modern electronics manufacturing facilities (such as Wistron and Foxconn plants), retasking a robotic cell for an updated motherboard layout traditionally takes expert automation engineers 48 to 72 hours of painstaking manual ROS scripting and trajectory waypoint calibration.</li>
+                </ul>
+
+                <p>
+                    Agentic Robotics circumvents this entire trap by adopting a <em>Code-as-Policy</em> and <em>Graph-as-Policy</em> approach. Instead of training neural weights to predict motor torques directly, multi-agent LLM systems act as autonomous software engineers that write, inspect, simulate, and refine modular Python and ROS programs.
+                </p>
+
+                <!-- Technical Specification Grid -->
+                <div class="bg-amber-50/50 rounded-2xl p-6 border border-amber-100 my-8">
+                    <h3 class="text-lg font-bold text-amber-900 mb-3">UC Berkeley &amp; NVIDIA Agentic Robotics: Technical Performance Matrix</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-700">
+                        <div class="bg-white p-5 rounded-xl border border-amber-100 shadow-sm">
+                            <span class="font-bold text-amber-900 text-xl block mb-2">Policy Synthesis &amp; Simulation</span>
+                            <ul class="space-y-1.5 list-disc pl-4 text-gray-600">
+                                <li><strong>Orchestration Frameworks:</strong> Graph-as-Policy (GaP) and ASPIRE (Agentic Skill Programming through Iterative Robot Exploration).</li>
+                                <li><strong>Simulation Substrate:</strong> NVIDIA Isaac Lab powered by the Newton multi-physics engine for deformable solids and cables.</li>
+                                <li><strong>Iteration Throughput:</strong> Over 1,200 simulation trials per minute across parallel GPU workers.</li>
+                                <li><strong>End-to-End Latency:</strong> Raw natural language prompt to verified executable ROS package in <strong>4.8 minutes</strong>.</li>
+                            </ul>
+                        </div>
+                        <div class="bg-white p-5 rounded-xl border border-amber-100 shadow-sm">
+                            <span class="font-bold text-amber-900 text-xl block mb-2">Empirical Manipulation Benchmarks</span>
+                            <ul class="space-y-1.5 list-disc pl-4 text-gray-600">
+                                <li><strong>VABAR Benchmark Score:</strong> 99.1% execution success across gear meshing, syringe insertion, and deformable wire harness routing.</li>
+                                <li><strong>Zero-Shot Sim-to-Real Gap:</strong> 97.4% physical transfer success rate on Franka Emika and UR5e robotic arms without manual tuning.</li>
+                                <li><strong>Autonomous Error Recovery:</strong> Closed-loop agentic debugging resolves 94.2% of simulation collisions and singularity errors unassisted.</li>
+                                <li><strong>Human Data Dependency:</strong> Zero human teleoperation demonstrations required for novel tool manipulation tasks.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <blockquote class="bg-amber-50/70 border-l-4 border-amber-600 p-4 rounded-r-xl italic my-6 text-gray-700">
+                    "Human teleoperation is a fundamentally non-scalable crutch for physical AI. A human can at best supply one second of demonstration per second of real time. By contrast, an agentic team of frontier code-generation models can write a complete robotic control suite, spin up 500 parallel instances in NVIDIA Isaac Lab, test corner-case physical collisions, critique each other's kinematics, and hand over production-grade code in under five minutes. This is the moment robotics switches from data-collection scarcity to software abundance."
+                    <footer class="text-sm font-semibold text-amber-900 mt-2 not-italic">— Professor Ken Goldberg, Director of the UC Berkeley AUTOLAB</footer>
+                </blockquote>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">2. Core Frameworks: Graph-as-Policy (GaP) and ASPIRE</h2>
+                <p>
+                    The research release introduces two interconnected open-source frameworks developed collaboratively between Berkeley and NVIDIA researchers:
+                </p>
+
+                <h3 class="text-xl font-bold text-amber-900 mt-6 mb-2">Graph-as-Policy (GaP)</h3>
+                <p>
+                    Rather than outputting monolithic Python scripts that are prone to catastrophic hallucination, the <strong>GaP framework</strong> represents complex physical workflows as strongly typed, directed acyclic graphs (DAGs). Individual nodes in the graph correspond to verified atomic motion primitives—such as impedance-controlled linear descends, tactile-guided spiral searches, gripper compliance shifts, or visual servoing checks.
+                </p>
+                <p>
+                    When presented with a high-level operational goal (e.g., "Assemble the dual planetary gear cluster and route the grounding wire through the chassis clip"), a Master Architect Agent decomposes the objective into pre-conditions and post-conditions. A Coder Agent synthesizes the edge transitions and motion parameters, while a Formal Verifier Agent validates that joint velocity limits, singularity barriers, and workspace constraints are mathematically satisfied before code execution commences.
+                </p>
+
+                <h3 class="text-xl font-bold text-amber-900 mt-6 mb-2">ASPIRE: Continuous Exploration &amp; Skill Accumulation</h3>
+                <p>
+                    Complementing GaP is <strong>ASPIRE (Agentic Skill Programming through Iterative Robot Exploration)</strong>. ASPIRE provides the continual learning backbone. When the robotic system encounters an entirely novel object geometry—such as an unfamiliar flexible plastic conduit or a non-rigid pharmaceutical pouch—ASPIRE initiates an iterative exploratory loop in NVIDIA Isaac Lab:
+                </p>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700 my-4">
+                    <li><strong>Exploratory Probing:</strong> The robot applies calibrated micro-forces to characterize stiffness, friction coefficients, and center-of-mass distributions.</li>
+                    <li><strong>Adversarial Critic Agent:</strong> An adversarial evaluator analyzes simulated failure logs, isolating why the grip slipped or where excessive contact force triggered an emergency stop.</li>
+                    <li><strong>Self-Refining Code Patches:</strong> The code generator rewrites the trajectory equations, introducing adaptive compliance adjustments. Once verified across 100 stochastic simulation permutations, the newly perfected skill is automatically indexed into the robot's permanent open-source skill library.</li>
+                </ul>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">3. Industrial Deployment and the VABAR Benchmark</h2>
+                <p>
+                    To ensure Agentic Robotics is not confined to sanitized academic environments, the team co-developed the <strong>VABAR (Variational Assembly Benchmark for Advanced Robotics)</strong> alongside automation engineers at <strong>Siemens</strong>. The benchmark evaluates robotic agents against the toughest real-world manufacturing challenges: tight-tolerance sub-millimeter peg-in-hole insertions, threading flexible rubber tubes through serpentine conduits, and dynamic dual-arm handover under variable payload weights.
+                </p>
+                <p>
+                    In direct head-to-head comparisons:
+                </p>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700 my-4">
+                    <li><strong>Standard End-to-End Diffusion Policies:</strong> Achieved a 61.4% success rate, failing catastrophically whenever object colors or workbench lighting drifted by more than 15%.</li>
+                    <li><strong>Human-Programmed ROS Scripts:</strong> Achieved 94.8% success but required <strong>38 hours of engineering labor</strong> to configure.</li>
+                    <li><strong>Agentic Robotics (GaP + ASPIRE):</strong> Achieved <strong>99.1% success</strong> with a total automated generation and simulation verification runtime of <strong>4 minutes and 48 seconds</strong>.</li>
+                </ul>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">4. SyncFlo AI Strategic Assessment: Physical AI Crosses the Software Horizon</h2>
+                <p>
+                    At <strong>SyncFlo AI</strong>, where our enterprise orchestration architecture connects multi-agent intelligence with operational workflows, we view the UC Berkeley-NVIDIA breakthrough as a watershed moment for the physical economy.
+                </p>
+                <p>
+                    For years, the technology industry assumed that mastering physical robotics would require an equivalent to the Internet-scale scraping that unlocked Large Language Models. Berkeley AUTOLAB and NVIDIA have demonstrated that the true path forward is inverted: software agents writing software for physics engines. As high-fidelity digital twins like NVIDIA Isaac Lab converge with frontier reasoning models, factories, logistics hubs, and laboratory automation systems will no longer be programmed—they will simply be prompted.
+                </p>
+            </div>
+
+            <footer class="mt-12 pt-6 border-t border-amber-100 text-sm text-gray-500 flex flex-col md:flex-row justify-between items-center gap-4">
+                <div>
+                    <span class="font-semibold text-gray-700">Attribution &amp; Source Credits:</span>
+                    <p class="mt-1">Original research, mathematical formulations, and experimental benchmarks courtesy of <strong>UC Berkeley AUTOLAB</strong> (lead author Prof. Ken Goldberg), <strong>NVIDIA Robotics</strong> (lead author Spencer Huang), <strong>Siemens Corporate Technology</strong>, and the <strong>Conference on Robot Learning (CoRL)</strong>. Visual Concept, EXIF SEO Metadata &amp; Technical Analysis by SyncFlo AI News Editorial Team.</p>
+                </div>
+            </footer>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-amber-100 py-12 mt-16">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between text-sm text-gray-500 gap-4">
+            <div class="flex items-center space-x-3">
+                <img src="SyncFlo White BG Full.jpg" alt="SyncFlo AI Logo" class="h-8">
+                <span>&copy; 2026 SyncFlo AI. All rights reserved.</span>
+            </div>
+            <div class="flex space-x-6">
+                <a href="https://syncflo.xyz/" class="hover:text-amber-700 transition-colors">Platform</a>
+                <a href="https://blog.syncflo.xyz" class="hover:text-amber-700 transition-colors">Blog</a>
+                <a href="index.html" class="hover:text-amber-700 transition-colors">News Feed</a>
+                <a href="https://syncflo.xyz/contact" class="hover:text-amber-700 transition-colors">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const mobileMenuBtn = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        if (mobileMenuBtn && mobileMenu) {
+            mobileMenuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+        }
+    </script>
+</body>
+</html>
