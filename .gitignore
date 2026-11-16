@@ -1,0 +1,6 @@
+.qodo
+.DS_Store
+Thumbs.db
+generate_*.py
+*.pyc
+__pycache__/
